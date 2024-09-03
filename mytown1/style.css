@@ -1,0 +1,213 @@
+.lora-font {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: italic;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    font-family: "Lora", serif;
+    background: url('images/sarıyer.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+}
+
+.hero-section h1, .hero-section h2 {
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+#title {
+    font-size: 45px;
+    border: 3px solid #466A28 ;
+    border-radius: 15px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+    padding-top: 5px;
+    padding-right: 13px;
+    background-color:#466A28;
+}
+#subtitle {
+    border: 3px solid #6596AB ;
+    border-radius: 15px;
+    padding-bottom:  5px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    background-color:#6596AB;
+}
+
+.activities-section {
+    padding: 50px 0;
+    background-color: #FAFAFA;
+    text-align: center;
+}
+
+#activities-title {
+    font-family: "Lora", serif;
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: #020202;
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.activity {
+    text-align: center;
+    width: 300px;
+}
+
+.activity-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 70%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.activity h4 {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+.activity p {
+    font-size: 14px;
+    color: #555;
+}
+
+.guide-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #FFFAFA;
+}
+
+.border-blue {
+    font-style: italic;
+    display: flex;
+    align-items: center;
+    border: 10px solid #fff0f3;
+    padding: 20px;
+    background: #fff0f3;
+    border-radius: 10px;
+    width: 500px;
+    border-bottom: 8px solid #333333;
+    color: #333;
+    gap: 20px;
+}
+
+.prenses {
+    font-style: italic;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+.border-blue h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.border-blue p {
+    margin: 0 0 15px 0;
+}
+
+.border-blue h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.food-cards {
+    padding: 50px 20px;
+    background-color: #E9EDF4;
+    text-align: center;
+}
+
+#title-two{
+    font-size: xx-large;
+}
+
+.food-cards h2 {
+    font-family: "Lora", serif;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h4 {
+    font-family: "Lora", serif;
+    margin: 10px 0;
+}
+
+.card-content p {
+    color: #555;
+}
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 250px;
+    margin: 10px;
+    overflow: hidden;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
